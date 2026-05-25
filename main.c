@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include "promedio_estudiante.h"
+#include "promedio_asignatura.h"
 
 int main() {
     int estudiantes,asignaturas=3;
+    float *matriz;
+    int *puntero_estudiantes;
     printf("Ingrese la cantidad de estudiantes: ");
     scanf("%d",&estudiantes);
     float *matriz;
@@ -25,6 +28,8 @@ int main() {
     matriz=&notas[0][0];
     puntero_estudiantes=&estudiantes;
     promedio_estudiante(*matriz, puntero_estudiantes, asignaturas);
+
+    promedio_asignatura(matriz, puntero_estudiantes, asignaturas);
     return 0;
     
     }
