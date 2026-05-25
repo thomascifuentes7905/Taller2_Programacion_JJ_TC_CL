@@ -4,7 +4,7 @@ int main() {
     int estudiantes,asignaturas=3;
     printf("Ingrese la cantidad de estudiantes: ");
     scanf("%d",&estudiantes);
-
+    float *matriz;
     float notas[estudiantes][3];
 
 
@@ -20,6 +20,7 @@ int main() {
             }
         }
     }
+    matriz=&notas[0][0];
     return 0;
     
     }
