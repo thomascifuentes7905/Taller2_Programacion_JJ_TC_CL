@@ -1,0 +1,1 @@
+float promedio_asignatura(float *matriz, int *puntero_estudiantes, int asignaturas);

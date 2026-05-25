@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "promedio_estudiante.h"
+
 int main() {
     int estudiantes,asignaturas=3;
     printf("Ingrese la cantidad de estudiantes: ");
