@@ -13,7 +13,7 @@ int main() {
     float notas[estudiantes][3];
 
 
-     // Ingreso de datos
+     // Ingreso de datos(thomas)
     for (int i = 0; i < estudiantes; i++) {
         printf("\nEstudiante %d", i + 1);
         for (int j = 0; j < asignaturas; j++) {
@@ -27,8 +27,9 @@ int main() {
     }
     matriz=&notas[0][0];
     puntero_estudiantes=&estudiantes;
+    //joel (promedio_estudiante)
     promedio_estudiante(*matriz, puntero_estudiantes, asignaturas);
-
+   //carlos (promedio_asignatura)
     promedio_asignatura(matriz, puntero_estudiantes, asignaturas);
     return 0;
     
