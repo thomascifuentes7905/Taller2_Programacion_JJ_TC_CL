@@ -7,7 +7,7 @@ float promedio_estudiante(float *matriz, int *puntero_estudiantes, int asignatur
 
     printf("\n=== PROMEDIOS POR ESTUDIANTE ===\n");
 
-    for (int i = 0; i <puntero_estudiantes; i++) {
+    for (int i = 0; i <*puntero_estudiantes; i++) {
         suma = 0;
 
     
